@@ -1,0 +1,10 @@
+<h1>Restaurant:</h1>
+<p><%= @restaurant.name %></p>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.category %></p>
+<p><% @restaurant.reviews %></p>
+
+<!-- new review link -->
+<%= link_to 'Add review', new_restaurant_review_path(@restaurant) %>
+<!-- list review -->
+
